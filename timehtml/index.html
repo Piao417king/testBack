@@ -243,6 +243,28 @@
       color: #f87171;
       border-color: #f87171;
     }
+
+    .time-to-stamp-options {
+      display: flex;
+      gap: 1.25rem;
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .radio-wrap {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      cursor: pointer;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+
+    .radio-wrap input {
+      margin: 0;
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -267,7 +289,7 @@
         <div class="card-title">时间戳 → 时间</div>
         <button type="button" class="btn-add" id="stampAddRowBtn" title="增加一行">➕</button>
       </div>
-      <p class="hint" style="margin-bottom: 0.75rem;">支持 10 位（秒）或 13 位（毫秒），自动识别</p>
+      <p class="hint" style="margin-bottom: 0.75rem;">支持 10 位（秒）或 13 位（毫秒），自动识别；负时间戳表示 1970 年之前</p>
       <div id="stampRows">
         <div class="stamp-row" data-index="0">
           <div class="stamp-col-input">
@@ -282,8 +304,16 @@
     <!-- 时间 → 时间戳 -->
     <section class="card">
       <div class="card-title">时间 → 时间戳</div>
-      <input type="datetime-local" id="timeInput">
-      <p class="hint">选择日期和时间后点击转换</p>
+      <input type="datetime-local" id="timeInput" step="1">
+      <p class="hint">选择日期和时间（含秒），并选择输出为秒或毫秒。1970 年之前的时间会得到负时间戳，属正常</p>
+      <div class="time-to-stamp-options">
+        <label class="radio-wrap">
+          <input type="radio" name="stampUnit" value="sec" checked> 输出秒级时间戳
+        </label>
+        <label class="radio-wrap">
+          <input type="radio" name="stampUnit" value="ms"> 输出毫秒级时间戳
+        </label>
+      </div>
       <button type="button" id="timeToStampBtn">转换</button>
       <div class="result-label" id="timeResultLabel"></div>
       <div class="result" id="timeResult"></div>
@@ -329,7 +359,8 @@
       if (!raw) return { ok: false, text: '—' };
       let ms = parseInt(raw, 10);
       if (isNaN(ms)) return { ok: false, text: '无效的时间戳' };
-      if (raw.length <= 10) ms = ms * 1000;
+      // 按数值判断：绝对值 < 1e12 视为秒（含负时间戳，即 1970 年之前）
+      if (Math.abs(ms) < 1e12) ms = ms * 1000;
       const d = new Date(ms);
       if (isNaN(d.getTime())) return { ok: false, text: '无效的时间戳' };
       const y = d.getFullYear();
@@ -386,6 +417,7 @@
       const raw = document.getElementById('timeInput').value;
       const label = document.getElementById('timeResultLabel');
       const result = document.getElementById('timeResult');
+      const unit = document.querySelector('input[name="stampUnit"]:checked').value;
       label.textContent = '';
       result.textContent = '';
 
@@ -406,17 +438,18 @@
       const ms = d.getTime();
 
       label.textContent = '转换结果：';
-      result.textContent = `秒: ${sec}\n毫秒: ${ms}`;
+      result.textContent = unit === 'sec' ? String(sec) : String(ms);
       result.style.whiteSpace = 'pre-line';
       result.style.color = 'var(--success)';
     });
 
-    // 初始化 datetime-local 为当前时间
+    // 初始化 datetime-local 为当前时间（含秒，格式 YYYY-MM-DDTHH:mm:ss）
     function setDefaultTime() {
       const d = new Date();
       const offset = d.getTimezoneOffset() * 60000;
       const local = new Date(d.getTime() - offset);
-      document.getElementById('timeInput').value = local.toISOString().slice(0, 16);
+      const str = local.toISOString().slice(0, 19);
+      document.getElementById('timeInput').value = str;
     }
     setDefaultTime();
   </script>
