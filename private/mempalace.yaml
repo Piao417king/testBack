@@ -1,0 +1,35 @@
+wing: private
+rooms:
+- name: mempalace_3.3.5
+  description: Files from mempalace-3.3.5/
+  keywords:
+  - mempalace_3.3.5
+  - mempalace-3.3.5
+- name: updatecfg_tools
+  description: Files from updatecfg-tools/
+  keywords:
+  - updatecfg_tools
+  - updatecfg-tools
+- name: design
+  description: Files from assets/
+  keywords:
+  - design
+  - assets
+- name: documentation
+  description: Files from docs/
+  keywords:
+  - documentation
+  - docs
+- name: testing
+  description: Files from tests/
+  keywords:
+  - testing
+  - tests
+- name: scripts
+  description: Files from tools/
+  keywords:
+  - scripts
+  - tools
+- name: general
+  description: Files that don't fit other rooms
+  keywords: []

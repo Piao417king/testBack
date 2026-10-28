@@ -1,0 +1,468 @@
+$ C:\Python312\python.exe -m mempalace init private --yes
+TIMEOUT
+
+$ C:\Python312\python.exe -m mempalace mine private --wing updateCfg --no-gitignore
+exit 0
+
+=======================================================
+  MemPalace Mine
+=======================================================
+  Wing:    updateCfg
+  Rooms:   mempalace_3.3.5, design, documentation, testing, scripts, general
+  Files:   270
+  Palace:  C:\Users\Administrator/.mempalace/palace
+  Device:  cpu
+  .gitignore: DISABLED
+-------------------------------------------------------
+
+  + [   1/270] check-prefab-uuid-refs.js                          +16
+  + [   2/270] fix-bad-replacements.js                            +7
+  + [   3/270] fix-building-info-imports.js                       +1
+  + [   4/270] generate_game_api_dts.js                           +5
+  + [   5/270] mp-status-out.txt                                  +1
+  + [   6/270] prefab-uuid-engine-whitelist.json                  +3
+  + [   7/270] replace-game-refs.js                               +37
+  + [   8/270] run-dry-result.txt                                 +2
+  + [   9/270] run-mempalace-cmd.py                               +2
+  + [  10/270] .pre-commit-config.yaml                            +1
+  + [  12/270] CHANGELOG.md                                       +81
+  + [  13/270] CLAUDE.md                                          +13
+  + [  14/270] CONTRIBUTING.md                                    +7
+  + [  15/270] MISSION.md                                         +8
+  + [  16/270] openarena-claim.txt                                +1
+  + [  17/270] pyproject.toml                                     +6
+  + [  18/270] README.md                                          +13
+  + [  19/270] ROADMAP.md                                         +5
+  + [  20/270] SECURITY.md                                        +2
+  + [  21/270] marketplace.json                                   +1
+  + [  22/270] .mcp.json                                          +1
+  + [  23/270] marketplace.json                                   +1
+  + [  24/270] plugin.json                                        +1
+  + [  25/270] README.md                                          +3
+  + [  26/270] help.md                                            +1
+  + [  27/270] init.md                                            +1
+  + [  28/270] mine.md                                            +1
+  + [  29/270] search.md                                          +1
+  + [  30/270] status.md                                          +1
+  + [  31/270] hooks.json                                         +1
+  + [  32/270] mempal-precompact-hook.sh                          +1
+  + [  33/270] mempal-stop-hook.sh                                +1
+  + [  34/270] SKILL.md                                           +2
+  + [  35/270] hooks.json                                         +1
+  + [  36/270] plugin.json                                        +3
+  + [  37/270] README.md                                          +4
+  + [  38/270] mempal-hook.sh                                     +1
+  + [  39/270] SKILL.md                                           +1
+  + [  40/270] SKILL.md                                           +1
+  + [  41/270] SKILL.md                                           +1
+  + [  42/270] SKILL.md                                           +1
+  + [  43/270] SKILL.md                                           +1
+  + [  44/270] devcontainer.json                                  +1
+  + [  45/270] post-create.sh                                     +1
+  + [  46/270] dependabot.yml                                     +1
+  + [  47/270] PULL_REQUEST_TEMPLATE.md                           +1
+  + [  48/270] bug_report.md                                      +1
+  + [  49/270] feature_request.md                                 +1
+  + [  50/270] ci.yml                                             +3
+  + [  51/270] deploy-docs.yml                                    +2
+  + [  52/270] version-guard.yml                                  +7
+  + [  53/270] BENCHMARKS.md                                      +64
+  + [  54/270] convomem_bench.py                                  +21
+  + [  55/270] HYBRID_MODE.md                                     +44
+  + [  56/270] lme_split_50_450.json                              +13
+  + [  57/270] locomo_bench.py                                    +67
+  + [  58/270] longmemeval_bench.py                               +207
+  + [  59/270] membench_bench.py                                  +25
+  + [  60/270] mine_bench.py                                      +18
+  + [  61/270] README.md                                          +7
+  + [  62/270] results_convomem_raw_top10_20260414_1649.json      +221
+  ! [skip] results_locomo_hybrid_session_top10_20260414_1649. produced 1361 chunks (> 500); add to SKIP_FILENAMES or .gitignore
+  ! [skip] results_locomo_raw_session_top10_20260414_1634.jso produced 1364 chunks (> 500); add to SKIP_FILENAMES or .gitignore
+  ! [skip] results_membench_hybrid_all_movie_top5_20260414_16 produced 6065 chunks (> 500); add to SKIP_FILENAMES or .gitignore
+  ! [skip] results_mempal_hybrid_v4_held_out_session_20260414 produced 16917 chunks (> 500); add to SKIP_FILENAMES or .gitignore
+  ! [skip] results_mempal_hybrid_v4_llmrerank_session_2026041 produced 764 chunks (> 500); add to SKIP_FILENAMES or .gitignore
+  ! [skip] results_mempal_hybrid_v4_llmrerank_session_2026041 produced 18803 chunks (> 500); add to SKIP_FILENAMES or .gitignore
+  ! [skip] results_mempal_raw_session_20260414_1629.jsonl     produced 18809 chunks (> 500); add to SKIP_FILENAMES or .gitignore
+  + [  70/270] CLOSETS.md                                         +7
+  + [  71/270] HISTORY.md                                         +12
+  + [  72/270] schema.sql                                         +2
+  + [  73/270] 002-source-adapter-plugin-spec.md                  +93
+  + [  74/270] basic_mining.py                                    +1
+  + [  75/270] convo_import.py                                    +1
+  + [  76/270] gemini_cli_setup.md                                +5
+  + [  77/270] HOOKS_TUTORIAL.md                                  +4
+  + [  78/270] mcp_setup.md                                       +1
+  + [  79/270] mempal_precompact_hook.sh                          +8
+  + [  80/270] mempal_save_hook.sh                                +15
+  + [  81/270] README.md                                          +14
+  + [  82/270] SKILL.md                                           +11
+  + [  83/270] index.html                                         +123
+  + [  84/270] cli.py                                             +101
+  + [  85/270] closet_llm.py                                      +22
+  + [  86/270] config.py                                          +26
+  + [  87/270] convo_miner.py                                     +31
+  + [  88/270] convo_scanner.py                                   +9
+  + [  89/270] corpus_origin.py                                   +30
+  + [  90/270] dedup.py                                           +14
+  + [  91/270] dialect.py                                         +61
+  + [  92/270] diary_ingest.py                                    +15
+  + [  93/270] embedding.py                                       +8
+  + [  94/270] entity_detector.py                                 +47
+  + [  95/270] entity_registry.py                                 +43
+  + [  96/270] exporter.py                                        +13
+  + [  97/270] fact_checker.py                                    +22
+  + [  98/270] general_extractor.py                               +24
+  + [  99/270] hooks_cli.py                                       +58
+  + [ 100/270] instructions_cli.py                                +2
+  + [ 101/270] knowledge_graph.py                                 +38
+  + [ 102/270] layers.py                                          +28
+  + [ 103/270] llm_client.py                                      +25
+  + [ 104/270] llm_refine.py                                      +32
+  + [ 105/270] mcp_server.py                                      +148
+  + [ 106/270] migrate.py                                         +20
+  + [ 107/270] miner.py                                           +84
+  + [ 108/270] normalize.py                                       +43
+  + [ 109/270] onboarding.py                                      +27
+  + [ 110/270] palace.py                                          +33
+  + [ 111/270] palace_graph.py                                    +46
+  + [ 112/270] project_scanner.py                                 +43
+  + [ 113/270] query_sanitizer.py                                 +13
+  + [ 114/270] README.md                                          +4
+  + [ 115/270] repair.py                                          +99
+  + [ 116/270] room_detector_local.py                             +20
+  + [ 117/270] searcher.py                                        +69
+  + [ 118/270] spellcheck.py                                      +15
+  + [ 119/270] split_mega_files.py                                +19
+  + [ 120/270] sweeper.py                                         +22
+  + [ 121/270] sync.py                                            +18
+  + [ 122/270] version.py                                         +1
+  + [ 123/270] _stdio.py                                          +6
+  + [ 124/270] __init__.py                                        +3
+  + [ 125/270] __main__.py                                        +1
+  + [ 126/270] base.py                                            +20
+  + [ 127/270] chroma.py                                          +104
+  + [ 128/270] registry.py                                        +11
+  + [ 129/270] __init__.py                                        +3
+  + [ 130/270] be.json                                            +8
+  + [ 131/270] de.json                                            +9
+  + [ 132/270] en.json                                            +11
+  + [ 133/270] es.json                                            +9
+  + [ 134/270] fr.json                                            +9
+  + [ 135/270] hi.json                                            +6
+  + [ 136/270] id.json                                            +12
+  + [ 137/270] it.json                                            +8
+  + [ 138/270] ja.json                                            +2
+  + [ 139/270] ko.json                                            +2
+  + [ 140/270] pt-br.json                                         +7
+  + [ 141/270] ru.json                                            +7
+  + [ 142/270] zh-CN.json                                         +6
+  + [ 143/270] zh-TW.json                                         +6
+  + [ 144/270] __init__.py                                        +18
+  + [ 145/270] help.md                                            +7
+  + [ 146/270] init.md                                            +5
+  + [ 147/270] mine.md                                            +3
+  + [ 148/270] search.md                                          +4
+  + [ 149/270] status.md                                          +3
+  + [ 150/270] base.py                                            +14
+  + [ 151/270] context.py                                         +10
+  + [ 152/270] registry.py                                        +9
+  + [ 153/270] transforms.py                                      +14
+  + [ 154/270] __init__.py                                        +3
+  + [ 155/270] conftest.py                                        +12
+  + [ 156/270] test_backends.py                                   +76
+  + [ 157/270] test_chroma_collection_lock.py                     +23
+  + [ 158/270] test_claude_plugin_hook_wrappers.py                +10
+  + [ 159/270] test_cli.py                                        +85
+  + [ 160/270] test_closets.py                                    +78
+  + [ 161/270] test_closet_llm.py                                 +38
+  + [ 162/270] test_collection_metric_invariant.py                +7
+  + [ 163/270] test_config.py                                     +17
+  + [ 164/270] test_config_extra.py                               +5
+  + [ 165/270] test_convo_miner.py                                +10
+  + [ 166/270] test_convo_miner_size_cap.py                       +3
+  + [ 167/270] test_convo_miner_unit.py                           +11
+  + [ 168/270] test_convo_scanner.py                              +14
+  + [ 169/270] test_corpus_origin.py                              +31
+  + [ 170/270] test_corpus_origin_integration.py                  +144
+  + [ 171/270] test_dedup.py                                      +15
+  + [ 172/270] test_dialect.py                                    +10
+  + [ 173/270] test_embedding.py                                  +5
+  + [ 174/270] test_empty_chromadb_results.py                     +3
+  + [ 175/270] test_entity_detector.py                            +52
+  + [ 176/270] test_entity_registry.py                            +25
+  + [ 177/270] test_exporter.py                                   +14
+  + [ 178/270] test_fact_checker.py                               +26
+  + [ 179/270] test_general_extractor.py                          +13
+  + [ 180/270] test_hall_detection.py                             +10
+  + [ 181/270] test_hnsw_capacity.py                              +42
+  + [ 182/270] test_hnsw_payload_health.py                        +6
+  + [ 183/270] test_hooks_cli.py                                  +90
+  + [ 184/270] test_hooks_shell.py                                +11
+  + [ 185/270] test_hybrid_candidate_union.py                     +18
+  + [ 186/270] test_hybrid_search.py                              +9
+  + [ 187/270] test_i18n.py                                       +16
+  + [ 188/270] test_i18n_lang_case.py                             +6
+  + [ 189/270] test_init_gitignore_protection.py                  +5
+  + [ 190/270] test_instructions_cli.py                           +3
+  + [ 191/270] test_kg_thread_safety.py                           +1
+  + [ 192/270] test_knowledge_graph.py                            +21
+  + [ 193/270] test_knowledge_graph_extra.py                      +7
+  + [ 194/270] test_known_entities_registry.py                    +19
+  + [ 195/270] test_layers.py                                     +44
+  + [ 196/270] test_llm_client.py                                 +33
+  + [ 197/270] test_llm_refine.py                                 +35
+  + [ 198/270] test_mcp_server.py                                 +122
+  + [ 199/270] test_mcp_stdio_protection.py                       +5
+  + [ 200/270] test_migrate.py                                    +11
+  + [ 201/270] test_miner.py                                      +59
+  + [ 202/270] test_miner_jsonl_visibility.py                     +10
+  + [ 203/270] test_normalize.py                                  +83
+  + [ 204/270] test_onboarding.py                                 +25
+  + [ 205/270] test_palace_graph.py                               +19
+  + [ 206/270] test_palace_graph_tunnels.py                       +28
+  + [ 207/270] test_palace_locks.py                               +22
+  + [ 208/270] test_project_scanner.py                            +34
+  + [ 209/270] test_query_sanitizer.py                            +19
+  + [ 210/270] test_readme_claims.py                              +60
+  + [ 211/270] test_repair.py                                     +115
+  + [ 212/270] test_room_detector_local.py                        +23
+  + [ 213/270] test_save_hook_mines.py                            +11
+  + [ 214/270] test_save_hook_verbose.py                          +3
+  + [ 215/270] test_searcher.py                                   +31
+  + [ 216/270] test_sources.py                                    +27
+  + [ 217/270] test_spellcheck.py                                 +9
+  + [ 218/270] test_spellcheck_extra.py                           +5
+  + [ 219/270] test_split_mega_files.py                           +15
+  + [ 220/270] test_sweeper.py                                    +22
+  + [ 221/270] test_sync.py                                       +91
+  + [ 222/270] test_version_consistency.py                        +1
+  + [ 223/270] benchmark_dialect.py                               +1
+  + [ 224/270] conftest.py                                        +7
+  + [ 225/270] data_generator.py                                  +33
+  + [ 226/270] README.md                                          +10
+  + [ 227/270] report.py                                          +7
+  + [ 228/270] test_chromadb_stress.py                            +15
+  + [ 229/270] test_ingest_bench.py                               +11
+  + [ 230/270] test_knowledge_graph_bench.py                      +18
+  + [ 231/270] test_layers_bench.py                               +12
+  + [ 232/270] test_mcp_bench.py                                  +15
+  + [ 233/270] test_memory_profile.py                             +13
+  + [ 234/270] test_palace_boost.py                               +12
+  + [ 235/270] test_recall_threshold.py                           +12
+  + [ 236/270] test_search_bench.py                               +17
+  + [ 238/270] backup_claude_jsonls.sh                            +3
+  + [ 239/270] find_orphan_claude_jsonls.sh                       +8
+  + [ 240/270] render_jsonl.py                                    +4
+  + [ 241/270] save.md                                            +2
+  + [ 242/270] index.md                                           +1
+  + [ 243/270] package.json                                       +1
+  + [ 244/270] index.ts                                           +1
+  + [ 245/270] style.css                                          +10
+  + [ 246/270] landing.css                                        +68
+  + [ 247/270] useLandingEffects.js                               +25
+  + [ 248/270] aaak-dialect.md                                    +6
+  + [ 249/270] agents.md                                          +4
+  + [ 250/270] contradiction-detection.md                         +2
+  + [ 251/270] knowledge-graph.md                                 +5
+  + [ 252/270] memory-stack.md                                    +5
+  + [ 253/270] the-palace.md                                      +7
+  + [ 254/270] claude-code.md                                     +2
+  + [ 255/270] configuration.md                                   +3
+  + [ 256/270] gemini-cli.md                                      +4
+  + [ 257/270] getting-started.md                                 +5
+  + [ 258/270] hooks.md                                           +6
+  + [ 259/270] local-models.md                                    +3
+  + [ 260/270] mcp-integration.md                                 +7
+  + [ 261/270] mining.md                                          +6
+  + [ 262/270] openclaw.md                                        +2
+  + [ 263/270] searching.md                                       +5
+  + [ 264/270] api-reference.md                                   +14
+  + [ 265/270] benchmarks.md                                      +11
+  + [ 266/270] cli.md                                             +9
+  + [ 267/270] contributing.md                                    +6
+  + [ 268/270] mcp-tools.md                                       +20
+  + [ 269/270] modules.md                                         +8
+  + [ 270/270] python-api.md                                      +5
+
+=======================================================
+  Done.
+  Files processed: 261
+  Files skipped (already filed): 9
+  Drawers filed: 5361
+
+  By room:
+    mempalace_3.3.5      252 files
+    design               6 files
+    general              2 files
+    scripts              1 files
+
+  Next: mempalace search "what you're looking for"
+=======================================================
+stderr:
+
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   0%|          | 0.00/79.3M [00:00<?, ?iB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   0%|          | 1.00k/79.3M [00:00<2:31:02, 9.18kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   0%|          | 68.0k/79.3M [00:00<03:52, 357kiB/s]   
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   0%|          | 119k/79.3M [00:00<04:29, 308kiB/s] 
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   0%|          | 238k/79.3M [00:00<03:02, 454kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   0%|          | 357k/79.3M [00:00<03:35, 384kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   1%|          | 986k/79.3M [00:01<01:05, 1.26MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   2%|▏         | 1.51M/79.3M [00:01<00:47, 1.70MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   3%|▎         | 2.04M/79.3M [00:01<00:38, 2.09MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   4%|▎         | 2.86M/79.3M [00:01<00:31, 2.53MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   5%|▍         | 3.60M/79.3M [00:02<00:29, 2.65MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   5%|▌         | 3.98M/79.3M [00:02<00:29, 2.67MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   5%|▌         | 4.24M/79.3M [00:02<00:30, 2.61MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   6%|▌         | 4.60M/79.3M [00:02<00:27, 2.81MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   7%|▋         | 5.51M/79.3M [00:02<00:19, 3.99MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   7%|▋         | 5.91M/79.3M [00:02<00:20, 3.80MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   8%|▊         | 6.29M/79.3M [00:02<00:20, 3.77MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   8%|▊         | 6.66M/79.3M [00:03<00:33, 2.26MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:   9%|▉         | 7.22M/79.3M [00:03<00:27, 2.75MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  10%|▉         | 7.55M/79.3M [00:03<00:31, 2.37MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  10%|▉         | 7.84M/79.3M [00:03<00:30, 2.43MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  10%|█         | 8.11M/79.3M [00:03<00:34, 2.15MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  11%|█         | 8.34M/79.3M [00:04<01:04, 1.16MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  11%|█▏        | 9.08M/79.3M [00:04<00:41, 1.79MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  12%|█▏        | 9.36M/79.3M [00:04<00:39, 1.83MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  12%|█▏        | 9.59M/79.3M [00:05<00:56, 1.29MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  12%|█▏        | 9.76M/79.3M [00:05<00:54, 1.35MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  13%|█▎        | 9.93M/79.3M [00:05<00:56, 1.28MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  13%|█▎        | 10.1M/79.3M [00:05<01:01, 1.18MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  13%|█▎        | 10.2M/79.3M [00:05<01:06, 1.09MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  13%|█▎        | 10.4M/79.3M [00:06<01:08, 1.06MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  13%|█▎        | 10.6M/79.3M [00:06<01:10, 1.02MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  14%|█▎        | 10.7M/79.3M [00:06<01:13, 979kiB/s] 
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  14%|█▍        | 11.0M/79.3M [00:06<01:36, 746kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  14%|█▍        | 11.1M/79.3M [00:06<01:38, 725kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  14%|█▍        | 11.4M/79.3M [00:07<01:02, 1.13MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  15%|█▍        | 11.6M/79.3M [00:07<01:00, 1.17MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  15%|█▍        | 11.7M/79.3M [00:07<01:15, 935kiB/s] 
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  15%|█▌        | 12.0M/79.3M [00:07<00:58, 1.21MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  15%|█▌        | 12.2M/79.3M [00:07<01:17, 910kiB/s] 
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  16%|█▌        | 12.4M/79.3M [00:08<01:14, 938kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  16%|█▌        | 12.8M/79.3M [00:08<00:50, 1.37MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  16%|█▋        | 13.1M/79.3M [00:08<01:04, 1.08MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  17%|█▋        | 13.4M/79.3M [00:08<00:49, 1.40MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  17%|█▋        | 13.6M/79.3M [00:08<00:45, 1.52MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  17%|█▋        | 13.8M/79.3M [00:09<00:45, 1.51MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  18%|█▊        | 14.0M/79.3M [00:09<00:58, 1.17MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  18%|█▊        | 14.4M/79.3M [00:09<00:41, 1.65MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  18%|█▊        | 14.6M/79.3M [00:09<00:42, 1.60MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  19%|█▉        | 14.9M/79.3M [00:09<00:40, 1.68MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  19%|█▉        | 15.1M/79.3M [00:10<00:54, 1.23MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  20%|█▉        | 15.7M/79.3M [00:10<00:39, 1.67MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  20%|██        | 15.9M/79.3M [00:10<00:49, 1.35MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  20%|██        | 16.2M/79.3M [00:10<00:41, 1.60MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  21%|██        | 16.4M/79.3M [00:12<03:15, 338kiB/s] 
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  22%|██▏       | 17.2M/79.3M [00:13<01:30, 722kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  22%|██▏       | 17.5M/79.3M [00:13<01:22, 787kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  22%|██▏       | 17.6M/79.3M [00:13<01:19, 815kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  23%|██▎       | 17.9M/79.3M [00:13<01:02, 1.03MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  23%|██▎       | 18.2M/79.3M [00:13<00:52, 1.21MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  23%|██▎       | 18.4M/79.3M [00:14<01:01, 1.04MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  23%|██▎       | 18.6M/79.3M [00:14<00:56, 1.12MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  24%|██▎       | 18.8M/79.3M [00:14<00:49, 1.27MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  24%|██▍       | 19.0M/79.3M [00:14<01:20, 787kiB/s] 
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  24%|██▍       | 19.4M/79.3M [00:15<00:57, 1.10MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  25%|██▍       | 19.6M/79.3M [00:16<02:45, 379kiB/s] 
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  25%|██▌       | 20.1M/79.3M [00:17<02:10, 477kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  26%|██▌       | 20.8M/79.3M [00:17<01:15, 814kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  27%|██▋       | 21.0M/79.3M [00:18<01:14, 824kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  27%|██▋       | 21.2M/79.3M [00:18<01:14, 816kiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  27%|██▋       | 21.7M/79.3M [00:18<00:47, 1.27MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  28%|██▊       | 22.0M/79.3M [00:18<00:40, 1.50MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  28%|██▊       | 22.3M/79.3M [00:18<00:47, 1.27MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  28%|██▊       | 22.6M/79.3M [00:19<00:52, 1.13MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  29%|██▊       | 22.8M/79.3M [00:19<00:53, 1.10MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  29%|██▉       | 22.9M/79.3M [00:19<01:03, 933kiB/s] 
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  29%|██▉       | 23.3M/79.3M [00:19<00:45, 1.28MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  30%|██▉       | 23.5M/79.3M [00:19<00:41, 1.40MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  30%|██▉       | 23.7M/79.3M [00:20<00:40, 1.44MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  30%|███       | 23.9M/79.3M [00:20<00:40, 1.45MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  30%|███       | 24.1M/79.3M [00:20<00:40, 1.41MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  31%|███       | 24.5M/79.3M [00:20<00:39, 1.44MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  31%|███       | 24.6M/79.3M [00:20<01:01, 927kiB/s] 
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  32%|███▏      | 25.1M/79.3M [00:21<00:54, 1.04MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  32%|███▏      | 25.7M/79.3M [00:21<00:38, 1.45MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  33%|███▎      | 25.9M/79.3M [00:21<00:35, 1.57MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  33%|███▎      | 26.1M/79.3M [00:22<00:54, 1.03MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  34%|███▍      | 27.1M/79.3M [00:22<00:28, 1.94MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  35%|███▍      | 27.7M/79.3M [00:22<00:22, 2.45MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  35%|███▌      | 28.1M/79.3M [00:22<00:29, 1.85MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  36%|███▌      | 28.4M/79.3M [00:23<00:28, 1.89MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  37%|███▋      | 29.1M/79.3M [00:23<00:26, 1.98MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  37%|███▋      | 29.4M/79.3M [00:23<00:26, 1.97MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  38%|███▊      | 30.2M/79.3M [00:23<00:19, 2.69MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  38%|███▊      | 30.5M/79.3M [00:24<00:35, 1.44MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  40%|███▉      | 31.6M/79.3M [00:24<00:21, 2.36MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  41%|████      | 32.5M/79.3M [00:24<00:16, 2.96MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  41%|████▏     | 32.9M/79.3M [00:25<00:30, 1.60MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  42%|████▏     | 33.4M/79.3M [00:26<00:34, 1.39MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  44%|████▎     | 34.7M/79.3M [00:26<00:21, 2.19MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  45%|████▍     | 35.5M/79.3M [00:26<00:18, 2.54MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  47%|████▋     | 37.3M/79.3M [00:26<00:10, 4.36MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  48%|████▊     | 38.0M/79.3M [00:26<00:10, 3.97MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  49%|████▊     | 38.6M/79.3M [00:27<00:11, 3.57MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  49%|████▉     | 39.1M/79.3M [00:27<00:13, 3.10MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  50%|████▉     | 39.5M/79.3M [00:27<00:12, 3.23MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  51%|█████     | 40.3M/79.3M [00:28<00:17, 2.37MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  52%|█████▏    | 41.5M/79.3M [00:28<00:14, 2.72MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  55%|█████▍    | 43.3M/79.3M [00:28<00:09, 3.82MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  56%|█████▌    | 44.4M/79.3M [00:28<00:09, 4.02MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  59%|█████▉    | 46.6M/79.3M [00:29<00:07, 4.38MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  61%|██████    | 48.1M/79.3M [00:29<00:05, 5.65MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  62%|██████▏   | 48.9M/79.3M [00:29<00:06, 4.67MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  63%|██████▎   | 49.8M/79.3M [00:30<00:06, 4.53MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  65%|██████▍   | 51.2M/79.3M [00:30<00:05, 5.69MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  65%|██████▌   | 51.9M/79.3M [00:30<00:05, 5.08MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  66%|██████▌   | 52.5M/79.3M [00:30<00:06, 4.61MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  67%|██████▋   | 53.0M/79.3M [00:31<00:09, 3.02MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  68%|██████▊   | 54.3M/79.3M [00:31<00:06, 4.31MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  70%|██████▉   | 55.3M/79.3M [00:31<00:06, 4.08MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  70%|███████   | 55.8M/79.3M [00:31<00:06, 4.01MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  71%|███████   | 56.3M/79.3M [00:31<00:06, 4.01MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  72%|███████▏  | 56.8M/79.3M [00:31<00:07, 3.29MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  72%|███████▏  | 57.5M/79.3M [00:32<00:07, 2.99MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  74%|███████▎  | 58.4M/79.3M [00:32<00:06, 3.21MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  76%|███████▌  | 59.9M/79.3M [00:32<00:04, 4.24MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  76%|███████▌  | 60.4M/79.3M [00:32<00:04, 4.25MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  77%|███████▋  | 61.0M/79.3M [00:32<00:04, 4.13MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  77%|███████▋  | 61.4M/79.3M [00:33<00:05, 3.34MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  78%|███████▊  | 61.7M/79.3M [00:33<00:05, 3.20MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  78%|███████▊  | 62.2M/79.3M [00:33<00:05, 3.17MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  79%|███████▉  | 62.6M/79.3M [00:33<00:07, 2.42MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  81%|████████  | 64.2M/79.3M [00:33<00:03, 4.87MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  82%|████████▏ | 64.9M/79.3M [00:34<00:04, 3.74MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  83%|████████▎ | 65.7M/79.3M [00:34<00:03, 3.87MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  84%|████████▍ | 66.9M/79.3M [00:34<00:02, 5.12MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  85%|████████▌ | 67.8M/79.3M [00:34<00:02, 4.85MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  86%|████████▌ | 68.3M/79.3M [00:35<00:05, 2.01MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  91%|█████████ | 72.1M/79.3M [00:35<00:01, 5.44MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  92%|█████████▏| 73.4M/79.3M [00:36<00:01, 5.55MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  94%|█████████▍| 74.4M/79.3M [00:36<00:01, 4.44MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  95%|█████████▍| 75.2M/79.3M [00:36<00:01, 4.20MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  96%|█████████▌| 75.8M/79.3M [00:36<00:00, 3.90MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  96%|█████████▋| 76.4M/79.3M [00:37<00:00, 3.42MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  97%|█████████▋| 77.0M/79.3M [00:37<00:00, 3.25MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  98%|█████████▊| 77.7M/79.3M [00:37<00:00, 3.58MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz:  99%|█████████▉| 78.5M/79.3M [00:37<00:00, 2.97MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz: 100%|█████████▉| 79.0M/79.3M [00:38<00:00, 3.20MiB/s]
+C:\Users\Administrator\.cache\chroma\onnx_models\all-MiniLM-L6-v2\onnx.tar.gz: 100%|██████████| 79.3M/79.3M [00:38<00:00, 2.17MiB/s]
+
+$ C:\Python312\python.exe -m mempalace status
+exit 0
+
+=======================================================
+  MemPalace Status — 5361 drawers
+=======================================================
+
+  WING: updateCfg
+    ROOM: mempalace_3.3.5       5287 drawers
+    ROOM: design                  66 drawers
+    ROOM: scripts                  5 drawers
+    ROOM: general                  3 drawers
+
+=======================================================
+stderr:
+Quarantined corrupt HNSW segment C:\Users\Administrator/.mempalace/palace\39dc843e-1082-423a-9f56-f3da62f56936 (sqlite 343s newer than HNSW and integrity check failed); renamed to C:\Users\Administrator/.mempalace/palace\39dc843e-1082-423a-9f56-f3da62f56936.drift-20260604-145842

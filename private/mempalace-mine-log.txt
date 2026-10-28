@@ -1,0 +1,71 @@
+cwd: E:\code\newFeature\updateCfg
+tools: E:\code\newFeature\updateCfg\private\updatecfg-tools
+
+$ C:\Python312\python.exe -m mempalace init E:\code\newFeature\updateCfg\private\updatecfg-tools --yes --auto-mine
+exit 0
+  No LLM provider reachable (Cannot reach Ollama at http://localhost:11434: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>). Running heuristics-only — pass --no-llm to silence this.
+  Skipping corpus-origin detection — no readable samples.
+
+  Scanning for entities in: E:\code\newFeature\updateCfg\private\updatecfg-tools
+  No entities detected — proceeding with directory-based rooms.
+
+=======================================================
+  MemPalace Init — Local setup
+=======================================================
+
+  WING: updatecfg_tools
+  (0 files found, rooms detected from filename patterns)
+
+    ROOM: general
+          All project files
+
+───────────────────────────────────────────────────────
+
+  Config saved: E:\code\newFeature\updateCfg\private\updatecfg-tools\mempalace.yaml
+
+  Next step:
+    mempalace mine E:\code\newFeature\updateCfg\private\updatecfg-tools
+
+=======================================================
+
+  ~0 files (~<1 MB) would be mined into this palace.
+
+
+=======================================================
+  MemPalace Mine
+=======================================================
+  Wing:    updatecfg_tools
+  Rooms:   general
+  Files:   0
+  Palace:  C:\Users\Administrator/.mempalace/palace
+  Device:  cpu
+-------------------------------------------------------
+
+
+=======================================================
+  Done.
+  Files processed: 0
+  Files skipped (already filed): 0
+  Drawers filed: 0
+
+  By room:
+
+  Next: mempalace search "what you're looking for"
+=======================================================
+
+$ C:\Python312\python.exe -m mempalace status
+exit 0
+
+=======================================================
+  MemPalace Status — 5361 drawers
+=======================================================
+
+  WING: updateCfg
+    ROOM: mempalace_3.3.5       5287 drawers
+    ROOM: design                  66 drawers
+    ROOM: scripts                  5 drawers
+    ROOM: general                  3 drawers
+
+=======================================================
+stderr:
+Quarantined corrupt HNSW segment C:\Users\Administrator/.mempalace/palace\a2ae0479-b47e-4388-95ff-cfe2ef7be4d6 (sqlite 3130s newer than HNSW and integrity check failed); renamed to C:\Users\Administrator/.mempalace/palace\a2ae0479-b47e-4388-95ff-cfe2ef7be4d6.drift-20260604-155054

@@ -1,0 +1,7 @@
+code=0
+stdout:
+
+  No palace found at C:\Users\Administrator/.mempalace/palace
+  Run: mempalace init <dir> then mempalace mine <dir>
+
+stderr:

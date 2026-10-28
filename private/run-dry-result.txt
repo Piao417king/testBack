@@ -1,0 +1,19 @@
+exit 0
+elapsed 8765 ms
+--- stdout tail ---
+e:\code\newFeature\updateCfg\game\assets\script\view\battle\components\btCptMap.ts
+e:\code\newFeature\updateCfg\game\assets\script\view\cloudCity\CloudCityPnlCtrl.ts
+e:\code\newFeature\updateCfg\game\assets\script\view\fairyland\FairylandPnlCtrl.ts
+e:\code\newFeature\updateCfg\game\assets\script\view\pve\DungeonSelLevPnlCtrl.ts
+e:\code\newFeature\updateCfg\game\assets\script\view\pve\PveFightPnlCtrl.ts
+e:\code\newFeature\updateCfg\game\assets\script\view\pve\PveResultPnlCtrl.ts
+e:\code\newFeature\updateCfg\game\assets\script\view\role\CptHeroPetMgr.ts
+e:\code\newFeature\updateCfg\game\assets\script\view\role\npc\NpcBase.ts
+e:\code\newFeature\updateCfg\game\assets\script\view\share\ALPGameCirclePnlCtrl.ts
+e:\code\newFeature\updateCfg\game\assets\script\view\share\CptAddMyMiniGamePage.ts
+e:\code\newFeature\updateCfg\game\assets\script\view\worldBoss\WorldBossResultPnlCtrl.ts
+e:\code\newFeature\updateCfg\game\assets\script\zww\HeroZwwSkelMgr.ts
+
+Modified 18 files，耗时 8655 ms
+
+--- stderr ---
